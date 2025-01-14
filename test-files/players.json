@@ -1,0 +1,4458 @@
+{
+  "VETERANS AND ROOKIES": [
+    {
+      "cardNumber": "1",
+      "player": "Kylian Mbapp",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "2",
+      "player": "Alessandro Bastoni",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "3",
+      "player": "Alejandro Grimaldo",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "4",
+      "player": "Kang-in Lee",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "5",
+      "player": "Gabriel Martinelli",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "6",
+      "player": "Gavi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "7",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "8",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "9",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "10",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "11",
+      "player": "Rafael Leão",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "12",
+      "player": "Guglielmo Vicario",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "13",
+      "player": "Jack Butland",
+      "club": "Rangers F.C.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "16",
+      "player": "Pau Víctor",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "17",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "18",
+      "player": "Richarlison",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "19",
+      "player": "Iker Losada",
+      "club": "Real Betis Balompié",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "20",
+      "player": "Benjamin Pavard",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "21",
+      "player": "Folarin Balogun",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "22",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "23",
+      "player": "Nicolò Barella",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "24",
+      "player": "Ronald Araújo",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "25",
+      "player": "Douglas Luiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "26",
+      "player": "James Tavernier",
+      "club": "Rangers F.C.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "29",
+      "player": "Kobbie Mainoo",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "30",
+      "player": "Marlon Gomes",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "31",
+      "player": "Gonçalo Ramos",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "32",
+      "player": "Cole Palmer",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "33",
+      "player": "Ollie Watkins",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "34",
+      "player": "Kevin Zeroli",
+      "club": "AC Milan",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "35",
+      "player": "Eguinaldo",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "36",
+      "player": "Gianluca Prestianni",
+      "club": "SL Benfica",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "37",
+      "player": "Rodrigo Riquelme",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "39",
+      "player": "Vitor Roque",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "40",
+      "player": "Lucas Beraldo",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "41",
+      "player": "Nicolas Jackson",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "42",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "43",
+      "player": "Quinten Timber",
+      "club": "Feyenoord",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "44",
+      "player": "Virgil",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "45",
+      "player": "James Maddison",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "46",
+      "player": "Federico Chiesa",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "47",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "48",
+      "player": "Rodrygo",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "49",
+      "player": "Ross McCausland",
+      "club": "Rangers F.C.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "50",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "51",
+      "player": "Serhou Guirassy",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "52",
+      "player": "Unai Hernández",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "53",
+      "player": "Declan Rice",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "54",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "55",
+      "player": "Minjae Kim",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "56",
+      "player": "Savinho",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "57",
+      "player": "Takumi Minamino",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "58",
+      "player": "Jamie Bynoe-Gittens",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "60",
+      "player": "Kyle Walker",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "62",
+      "player": "Martin",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "63",
+      "player": "Ricardo Pepi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "64",
+      "player": "Maghnes Akliouche",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "65",
+      "player": "Theo Hernández",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "66",
+      "player": "Ezri Konsa",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "67",
+      "player": "Patrik Schick",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "68",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "69",
+      "player": "Jérémy Doku",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "70",
+      "player": "Fikayo Tomori",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "71",
+      "player": "Destiny Udogie",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "73",
+      "player": "Donyell Malen",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "74",
+      "player": "Ayase Ueda",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "75",
+      "player": "Ken Izekor",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "76",
+      "player": "Christian Pulisic",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "77",
+      "player": "Bukayo Saka",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "78",
+      "player": "Jeremie Frimpong",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "79",
+      "player": "Yunus Musah",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "80",
+      "player": "Cyriel Dessers",
+      "club": "Rangers F.C.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "81",
+      "player": "Michael Olise",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "82",
+      "player": "Davide Calabria",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "83",
+      "player": "Diogo Dalot",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "84",
+      "player": "Johnny Cardoso",
+      "club": "Real Betis Balompié",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "85",
+      "player": "Edan Diop",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "86",
+      "player": "Nicolás Otamendi",
+      "club": "SL Benfica",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "87",
+      "player": "Mohamed Salah",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "88",
+      "player": "Timothy Weah",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "89",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "90",
+      "player": "Julian Brandt",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "91",
+      "player": "Oscar Bobb",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "92",
+      "player": "Matty Warhurst",
+      "club": "Manchester City",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "93",
+      "player": "Eduardo Camavinga",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "95",
+      "player": "White",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "96",
+      "player": "Alphonso Davies",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "97",
+      "player": "Jesper Uneken",
+      "club": "PSV Eindhoven",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "98",
+      "player": "João Palhinha",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "99",
+      "player": "Thomas Müller",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "100",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "101",
+      "player": "Manuel Neuer",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "102",
+      "player": "Tosin Adarabioyo",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "103",
+      "player": "Kassoum Ouattara",
+      "club": "AS Monaco",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "104",
+      "player": "Trent Alexander-Arnold",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "105",
+      "player": "Karim Adeyemi",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "107",
+      "player": "Gleison Bremer",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "108",
+      "player": "Joshua Kimmich",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "109",
+      "player": "Ousmane Dembélé",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "110",
+      "player": "Marquinhos",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "111",
+      "player": "Marcus Thuram",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "112",
+      "player": "Lucas Bergvall",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "113",
+      "player": "Noni Madueke",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "114",
+      "player": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "117",
+      "player": "Cameron Carter-Vickers",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "118",
+      "player": "Kjell Wätjen",
+      "club": "Borussia Dortmund",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "119",
+      "player": "Georgiy Sudakov",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "120",
+      "player": "Tygo Land",
+      "club": "PSV Eindhoven",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "121",
+      "player": "Joshua Zirkzee",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "122",
+      "player": "Ousmane Diomande",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "123",
+      "player": "Pablo Barrios",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "125",
+      "player": "Kai Havertz",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "127",
+      "player": "Alistair Johnston",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "128",
+      "player": "Granit Xhaka",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "129",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "130",
+      "player": "Daizen Maeda",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "131",
+      "player": "Viktor Gyökeres",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "132",
+      "player": "Rafael Nel",
+      "club": "Sporting Clube de Portugal",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "133",
+      "player": "Leon Bailey",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "134",
+      "player": "Pedro Gonçalves",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "136",
+      "player": "Cesare Casadei",
+      "club": "Chelsea FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "137",
+      "player": "Marcel Sabitzer",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "138",
+      "player": "Givairo Read",
+      "club": "Feyenoord",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "139",
+      "player": "Tijjani Reijnders",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "140",
+      "player": "Kyogo Furuhashi",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "141",
+      "player": "Leroy Sané",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "142",
+      "player": "Ian Maatsen",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "143",
+      "player": "Isco",
+      "club": "Real Betis Balompié",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "144",
+      "player": "Justin Oboavwoduo",
+      "club": "Manchester City",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "145",
+      "player": "Levi Colwill",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "146",
+      "player": "Samuel Iling-Junior",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "147",
+      "player": "Alejandro Garnacho",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "148",
+      "player": "Noah Darvich",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "149",
+      "player": "Luka Modrić",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "150",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "151",
+      "player": "Matt O'Riley",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "152",
+      "player": "Bruno Fernandes",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "153",
+      "player": "Marc-André",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "154",
+      "player": "David Raya",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "155",
+      "player": "Nicolas Raskin",
+      "club": "Rangers F.C.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "156",
+      "player": "Randal Kolo Muani",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "157",
+      "player": "Kevin",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "158",
+      "player": "Ethan Nwaneri",
+      "club": "Arsenal FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "159",
+      "player": "Maximilian Beier",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "160",
+      "player": "Jaden Slory",
+      "club": "Feyenoord",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "161",
+      "player": "Héctor Bellerín",
+      "club": "Real Betis Balompié",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "163",
+      "player": "Gianluigi Donnarumma",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "164",
+      "player": "Federico Valverde",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "165",
+      "player": "Hakan",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "167",
+      "player": "Vinícius Tobias",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "168",
+      "player": "Gregor Kobel",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "169",
+      "player": "Luis Díaz",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "170",
+      "player": "Archie Gray",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "171",
+      "player": "Julián",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "172",
+      "player": "Frenkie",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "173",
+      "player": "Senny Mayulu",
+      "club": "Paris Saint-Germain",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "174",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "175",
+      "player": "Morten Hjulmand",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "176",
+      "player": "Dušan Vlahović",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "177",
+      "player": "Zeno Debast",
+      "club": "Sporting Clube de Portugal",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "178",
+      "player": "Johan Bakayoko",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "179",
+      "player": "Mathys Tel",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "180",
+      "player": "Ethan Wheatley",
+      "club": "Manchester United",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "181",
+      "player": "Morato",
+      "club": "SL Benfica",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "182",
+      "player": "Alexis Mac Allister",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "184",
+      "player": "Rasmus Højlund",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "185",
+      "player": "Gündoğan",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "189",
+      "player": "Santiago Giménez",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "190",
+      "player": "Trey Nyoni",
+      "club": "Liverpool FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "191",
+      "player": "Julian Ryerson",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "192",
+      "player": "Rodrigo",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "193",
+      "player": "Jayden Danns",
+      "club": "Liverpool FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "195",
+      "player": "Davide Frattesi",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "197",
+      "player": "Warren Zaïre-Emery",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "198",
+      "player": "Mike Maignan",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "199",
+      "player": "Mikey Moore",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "200",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    }
+  ],
+  "FUTURE STARS": [
+    {
+      "cardNumber": "14",
+      "player": "Nico Paz",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "27",
+      "player": "Lamine Yamal",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "38",
+      "player": "Marcos Leonardo",
+      "club": "SL Benfica",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "59",
+      "player": "Kenan Yildiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "61",
+      "player": "Aleksandar Pavlović",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "115",
+      "player": "Marc Guiu",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "116",
+      "player": "Bradley Barcola",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "126",
+      "player": "Antoni Milambo",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "135",
+      "player": "Arthur Vermeeren",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "162",
+      "player": "Fermín López",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "166",
+      "player": "Julien Duranville",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "183",
+      "player": "Francesco Camarda",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "188",
+      "player": "Assane Diao",
+      "club": "Real Betis Balompié",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "194",
+      "player": "Isaac Babadi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "196",
+      "player": "Pau Cubarsí",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    }
+  ],
+  "COMBO CARDS": [
+    {
+      "cardNumber": "28",
+      "player": null,
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "72",
+      "player": null,
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "124",
+      "player": null,
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "186",
+      "player": null,
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "187",
+      "player": null,
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "15",
+      "player": null,
+      "club": "Real Madrid C.F.",
+      "type": null
+    },
+    {
+      "cardNumber": "94",
+      "player": null,
+      "club": "Olympiacos FC",
+      "type": null
+    },
+    {
+      "cardNumber": "106",
+      "player": null,
+      "club": "Atalanta B.C.",
+      "type": null
+    }
+  ],
+  "BASE CARDS SHORT PRINTS": [
+    {
+      "cardNumber": "1",
+      "player": "Kylian Mbappé",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "6",
+      "player": "Xavi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "7",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "9",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "21",
+      "player": "Thierry Henry",
+      "club": "AS Monaco",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "22",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "27",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "39",
+      "player": "Neymar Jr",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "45",
+      "player": "Gareth Bale",
+      "club": "Tottenham Hotspur",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "47",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "49",
+      "player": "Paul Gascoigne",
+      "club": "Rangers F.C.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "59",
+      "player": "Zinédine Zidane",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "85",
+      "player": "David Trezeguet",
+      "club": "AS Monaco",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "87",
+      "player": "Kenny Dalglish",
+      "club": "Liverpool FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "89",
+      "player": "Emile Heskey",
+      "club": "Liverpool FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "99",
+      "player": "Lothar Matthäus",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "100",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "112",
+      "player": "Lucas Bergvall",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "140",
+      "player": "Henrik Larsson",
+      "club": "Celtic FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "147",
+      "player": "Cristiano Ronaldo",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "149",
+      "player": "Luka Modrić",
+      "club": "Tottenham Hotspur",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "150",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "163",
+      "player": "Gianluigi Buffon",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "178",
+      "player": "Ronaldo",
+      "club": "PSV Eindhoven",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "193",
+      "player": "Jayden Danns",
+      "club": "Liverpool FC",
+      "type": "Rookie"
+    }
+  ],
+  "BASE CARDS SUPER SHORT PRINTS": [
+    {
+      "cardNumber": "21",
+      "player": "Thierry Henry",
+      "club": "AS Monaco",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "22",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "27",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "39",
+      "player": "Neymar Jr",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "45",
+      "player": "Gareth Bale",
+      "club": "Tottenham Hotspur",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "59",
+      "player": "Zinédine Zidane",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "99",
+      "player": "Lothar Matthäus",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "100",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "112",
+      "player": "Lucas Bergvall",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "147",
+      "player": "Cristiano Ronaldo",
+      "club": "Manchester United",
+      "type": "Retired"
+    }
+  ],
+  "HISTORIC CAPTAINS": [
+    {
+      "cardNumber": "HC-1",
+      "player": "Paolo Maldini",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-2",
+      "player": "Franco Baresi",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-3",
+      "player": "Patrick Vieira",
+      "club": "Arsenal FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-4",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-5",
+      "player": "Andrés Iniesta",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-6",
+      "player": "Oliver Kahn",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-7",
+      "player": "Javier Zanetti",
+      "club": "FC Internazionale Milano",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-8",
+      "player": "Gianluigi Buffon",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-9",
+      "player": "Steven Gerrard",
+      "club": "Liverpool FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HC-10",
+      "player": "Roy Keane",
+      "club": "Manchester United",
+      "type": "Retired"
+    }
+  ],
+  "BEST OF THE BEST UCL LEGENDS": [
+    {
+      "cardNumber": "BOTB-1",
+      "player": "Clarence Seedorf",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-2",
+      "player": "Andrea Pirlo",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-3",
+      "player": "Thierry Henry",
+      "club": "Arsenal FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-4",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-5",
+      "player": "Andrés Iniesta",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-6",
+      "player": "Gerd Müller",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-7",
+      "player": "Franck Ribéry",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-8",
+      "player": "Ronaldo",
+      "club": "FC Internazionale Milano",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-9",
+      "player": "Samuel Eto'o",
+      "club": "FC Internazionale Milano",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-10",
+      "player": "Zinédine Zidane",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-11",
+      "player": "Didier Drogba",
+      "club": "Chelsea FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-12",
+      "player": "Paul Scholes",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-13",
+      "player": "Ryan Giggs",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-14",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BOTB-15",
+      "player": "Roberto Carlos",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    }
+  ],
+  "NEW ERA": [
+    {
+      "cardNumber": "NE-1",
+      "player": "Rafael Leão",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-2",
+      "player": "Raphinha",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-3",
+      "player": "Gabriel Martinelli",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-4",
+      "player": "Edan Diop",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-5",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-6",
+      "player": "Ken Izekor",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "NE-7",
+      "player": "Julien Duranville",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-8",
+      "player": "Daizen Maeda",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-9",
+      "player": "Noah Darvich",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "NE-10",
+      "player": "Aleksandar Pavlović",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-11",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-12",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-13",
+      "player": "Jhon Durán",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-14",
+      "player": "Gianluca Prestianni",
+      "club": "SL Benfica",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "NE-15",
+      "player": "Douglas Luiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-16",
+      "player": "Harvey Elliott",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-17",
+      "player": "Oscar Bobb",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-18",
+      "player": "Kobbie Mainoo",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-19",
+      "player": "Kylian Mbappé",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-20",
+      "player": "Lucas Beraldo",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-21",
+      "player": "Joey Veerman",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-22",
+      "player": "Rodrygo",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-23",
+      "player": "Marcos Leonardo",
+      "club": "SL Benfica",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-24",
+      "player": "Viktor Gyökeres",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NE-25",
+      "player": "Cyriel Dessers",
+      "club": "Rangers F.C.",
+      "type": "Veteran"
+    }
+  ],
+  "TROPHY CHASERS": [
+    {
+      "cardNumber": "RF-1",
+      "player": "Leandro Trossard",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-2",
+      "player": "Federico Valverde",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-3",
+      "player": "Isco",
+      "club": "Real Betis Balompié",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-4",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-5",
+      "player": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-6",
+      "player": "Tijjani Reijnders",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-7",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-8",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-9",
+      "player": "Hakan",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-10",
+      "player": "Santiago Giménez",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-11",
+      "player": "Georgiy Sudakov",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-12",
+      "player": "Nicolas Jackson",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-13",
+      "player": "Dušan Vlahović",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-14",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-15",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-16",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-17",
+      "player": "Marquinhos",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-18",
+      "player": "Rasmus Modri",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-19",
+      "player": "Luka",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "RF-20",
+      "player": "Bradley Barcola",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    }
+  ],
+  "COVER STARS": [
+    {
+      "cardNumber": "CS-1",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-2",
+      "player": "Kylian Mbappé",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-3",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-4",
+      "player": "Mohamed Salah",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-5",
+      "player": "Rasmus Højlund",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-6",
+      "player": "Takumi Minamino",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-7",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-8",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-9",
+      "player": "Martin",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-10",
+      "player": "Lamine Yamal",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-11",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-12",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-13",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "CS-14",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CS-15",
+      "player": "Cole Palmer",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    }
+  ],
+  "EPICENTER": [
+    {
+      "cardNumber": "EC-1",
+      "player": "Christian Pulisic",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-2",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-3",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-4",
+      "player": "Kjell Wätjen",
+      "club": "Borussia Dortmund",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "EC-5",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-6",
+      "player": "Johan Bakayoko",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-7",
+      "player": "Thomas Müller",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-8",
+      "player": "Trent Alexander-Arnold",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-9",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-10",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-11",
+      "player": "Folarin Balogun",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-12",
+      "player": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-13",
+      "player": "Mohamed Salah",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-14",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-15",
+      "player": "Bruno Fernandes",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-16",
+      "player": "Kang-in Lee",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-17",
+      "player": "Bukayo Saka",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-18",
+      "player": "Declan Rice",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-19",
+      "player": "Arda Güler",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EC-20",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    }
+  ],
+  "MOJO": [
+    {
+      "cardNumber": "MJ-1",
+      "player": "Rafael Leão",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-2",
+      "player": "Ethan Nwaneri",
+      "club": "Arsenal FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "MJ-3",
+      "player": "Gabriel Martinelli",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-4",
+      "player": "Rodrigo",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-5",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-6",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-7",
+      "player": "Folarin Balogun",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-8",
+      "player": "Gavi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-9",
+      "player": "Vitor Roque",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-10",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-11",
+      "player": "Lamine Yamal",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-12",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-13",
+      "player": "Mathys Tel",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-14",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-15",
+      "player": "Santiago Giménez",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-16",
+      "player": "Dušan Vlahović",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-17",
+      "player": "Kenan Yildiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-18",
+      "player": "Luis Díaz",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-19",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-20",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-21",
+      "player": "Cole Palmer",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-22",
+      "player": "Kobbie Mainoo",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-23",
+      "player": "Randal Kolo Muani",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-24",
+      "player": "Warren Zaïre-Emery",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-25",
+      "player": "Kylian Mbappé",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-26",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-27",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "MJ-28",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MJ-29",
+      "player": "Lucas Bergvall",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "MJ-30",
+      "player": "Theo Hernández",
+      "club": "AC Milan",
+      "type": "Veteran"
+    }
+  ],
+  "MINDGAME": [
+    {
+      "cardNumber": "MG-1",
+      "player": "Christian Pulisic",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-2",
+      "player": "Bukayo Saka",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-3",
+      "player": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-4",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-5",
+      "player": "Lamine Yamal",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-6",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-7",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-8",
+      "player": "Kenan Yildiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-9",
+      "player": "Mohamed Salah",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-10",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-11",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-12",
+      "player": "Kobbie Mainoo",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-13",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-14",
+      "player": "Cristiano Ronaldo",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-15",
+      "player": "Kylian Mbappé",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-16",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-17",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "MG-18",
+      "player": "Nicolò Barella",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-19",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "MG-20",
+      "player": "Lucas Bergvall",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    }
+  ],
+  "ULTIMATE STAGE CHROME CARDS": [
+    {
+      "cardNumber": "USC-1",
+      "player": "Christian Pulisic",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-2",
+      "player": "Kevin Zeroli",
+      "club": "AC Milan",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USC-3",
+      "player": "Rafael Leão",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-4",
+      "player": "Kai Havertz",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-5",
+      "player": "Gabriel",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-6",
+      "player": "White",
+      "club": "Arsenal FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-7",
+      "player": "Arthur Vermeeren",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-8",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-9",
+      "player": "Florian Wirtz",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-10",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-11",
+      "player": "Ken Izekor",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USC-12",
+      "player": "Ricardo Pepi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-13",
+      "player": "Gavi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-14",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-15",
+      "player": "Noah Darvich",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USC-16",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-17",
+      "player": "Mathys Tel",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-18",
+      "player": "Manuel Neuer",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-19",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-20",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-21",
+      "player": "Denzel Dumfries",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-22",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-23",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-24",
+      "player": "Georgiy Sudakov",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-25",
+      "player": "Kevin",
+      "club": "FC Shakhtar Donetsk",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USC-26",
+      "player": "Timothy Weah",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-27",
+      "player": "Douglas Luiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-28",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "USC-29",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-30",
+      "player": "Jayden Danns",
+      "club": "Liverpool FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USC-31",
+      "player": "Conor Bradley",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-32",
+      "player": "Trent Alexander-Arnold",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-33",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-34",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-35",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-36",
+      "player": "Rodri",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-37",
+      "player": "Gonçalo Ramos",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-38",
+      "player": "Gianluigi Donnarumma",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-39",
+      "player": "Kang-in Lee",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-40",
+      "player": "Randal Kolo Muani",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-41",
+      "player": "Warren Zaïre-Emery",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-42",
+      "player": "Marquinhos",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-43",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-44",
+      "player": "Eduardo Camavinga",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-45",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-46",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USC-47",
+      "player": "Luka Modrić",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-48",
+      "player": "Kylian Mbappé",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-49",
+      "player": "Vitor Roque",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USC-50",
+      "player": "Virgil",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    }
+  ],
+  "HYPE": [
+    {
+      "cardNumber": "HYPE-1",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    }
+  ],
+  "THE GRAIL": [
+    {
+      "cardNumber": "GL-1",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    }
+  ],
+  "TOPPS UCL SKETCH CARDS": [
+    {
+      "cardNumber": null,
+      "player": "Sergio Agüero Trent Alexander-Arnold Gareth Bale Gareth Bale Michael Ballack Michael Ballack Jude Bellingham Eric Cantona Rui Costa Rui Costa Kenny Dalglish Kevin De Bruyne Endrick Alejandro Garnacho Paul Gascoigne Antoine Griezmann Erling Haaland Erling Haaland Zlatan Ibrahimović Zlatan Ibrahimović Harry Kane Frank Lampard Henrik Larsson Henrik Larsson Henrik Larsson Rafael Leão Paolo Maldini Mart Lautaro Kylian Mbappé Lionel Messi Gerd Müller Jamal Musiala Neymar Jr Ronaldinho Ronaldinho Cristiano Ronaldo Cristiano Ronaldo Cristiano Ronaldo Ronaldo Ronaldo Ronaldo Cristiano Ronaldo Mohamed Salah Virgil Robin Robin Florian Wirtz Lamine Yamal Zinédine Zidane Zinédine Zidane",
+      "club": "Juventus",
+      "type": "Retired"
+    }
+  ],
+  "BASE CARDS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "A-A",
+      "player": "Antony",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-AB",
+      "player": "Alessandro Bastoni",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-CM",
+      "player": "Callum McGregor",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-CP",
+      "player": "Cole Palmer",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-CR",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-DD",
+      "player": "Didier Drogba",
+      "club": "Chelsea FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-DS",
+      "player": "Dominik Szoboszlai",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-DU",
+      "player": "Destiny Udogie",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-E",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "A-EF",
+      "player": "Enzo Fernández",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-EH",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-EM",
+      "player": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-FM",
+      "player": "Fernando Morientes",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-GB",
+      "player": "Gareth Bale",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-GC",
+      "player": "Giorgio Chiellini",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-GH",
+      "player": "Glenn Hoddle",
+      "club": "AS Monaco",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-GK",
+      "player": "Gregor Kobel",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-GV",
+      "player": "Giovanni",
+      "club": "Rangers F.C.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-GX",
+      "player": "Granit Xhaka",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-GZ",
+      "player": "Gianfranco Zola",
+      "club": "Chelsea FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-HB",
+      "player": "Héctor Bellerín",
+      "club": "Real Betis Balompié",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-HL",
+      "player": "Henrik Larsson",
+      "club": "Celtic FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-HS",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-JB",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-JD",
+      "player": "Jayden Danns",
+      "club": "Liverpool FC",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "A-JM",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-KA",
+      "player": "Karim Adeyemi",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-KD",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-KI",
+      "player": "Ken Izekor",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "A-KR",
+      "player": "Karl-Heinz Rummenigge",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-KW",
+      "player": "Kjell Wätjen",
+      "club": "Borussia Dortmund",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "A-LB",
+      "player": "Lucas Bergvall",
+      "club": "Tottenham Hotspur",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "A-LI",
+      "player": "Luka Ivanušec",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-LM",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-MA",
+      "player": "Manuel Akanji",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-MM",
+      "player": "Mykhailo Mudryk",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-MT",
+      "player": "Marcus Thuram",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-ND",
+      "player": "Noah Darvich",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "A-OB",
+      "player": "Oscar Bobb",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-P",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-PB",
+      "player": "Pablo Barrios",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-PF",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-R",
+      "player": "Ronaldinho",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-RF",
+      "player": "Robbie Fowler",
+      "club": "Liverpool FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-RG",
+      "player": "Ryan Giggs",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "A-RH",
+      "player": "Reo Hatate",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-SA",
+      "player": "Savinho",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-V",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-VB",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-VG",
+      "player": "Viktor Gyökeres",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "A-ZI",
+      "player": "Zlatan Ibrahimović",
+      "club": "AC Milan",
+      "type": "Retired"
+    }
+  ],
+  "FUTURE STARS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "FSA-AP",
+      "player": "Aleksandar Pavlović",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "FSA-FC",
+      "player": "Francesco Camarda",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "FSA-IB",
+      "player": "Isaac Babadi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "FSA-KY",
+      "player": "Kenan Yildiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "FSA-ML",
+      "player": "Marcos Leonardo",
+      "club": "SL Benfica",
+      "type": "Veteran"
+    }
+  ],
+  "COVER STARS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "CSA-AG",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CSA-CP",
+      "player": "Cole Palmer",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CSA-EH",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CSA-JB",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CSA-RH",
+      "player": "Rasmus Højlund",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "CSA-RL",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    }
+  ],
+  "TEAMMATES DUAL AUTOGRAPHS": [
+    {
+      "cardNumber": "TDA-BK",
+      "player": "Michael Ballack Oliver Kahn",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "TDA-BR",
+      "player": "John Barnes Ian Rush",
+      "club": "Liverpool FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "TDA-CK",
+      "player": "Rui Costa Kaká",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "TDA-HT",
+      "player": "Thierry Henry David Trezeguet",
+      "club": "AS Monaco",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "TDA-RE",
+      "player": "Ronaldinho Samuel Eto'o",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "TDA-RR",
+      "player": "Ronaldo Roberto Carlos",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "TDA-TL",
+      "player": "John Terry Frank Lampard",
+      "club": "Chelsea FC",
+      "type": "Retired"
+    }
+  ],
+  "NEW ERA AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "NEA-AG",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-AP",
+      "player": "Aleksandar Pavlović",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-DM",
+      "player": "Daizen Maeda",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-FD",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-GP",
+      "player": "Gianluca Prestianni",
+      "club": "SL Benfica",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "NEA-HE",
+      "player": "Harvey Elliott",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-JM",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-KI",
+      "player": "Ken Izekor",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "NEA-OB",
+      "player": "Oscar Bobb",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-RA",
+      "player": "Raphinha",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-RL",
+      "player": "Rafael Leão",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "NEA-VG",
+      "player": "Viktor Gyökeres",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    }
+  ],
+  "TROPHY CHASERS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "TCA-DN",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-EM",
+      "player": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-HC",
+      "player": "Hakan",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-HK",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-HS",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-KD",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-M",
+      "player": "Marquinhos",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-NJ",
+      "player": "Nicolas Jackson",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "TCA-SG",
+      "player": "Santiago Giménez",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    }
+  ],
+  "BEST OF THE BEST UCL LEGENDS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "BBA-AI",
+      "player": "Andrés Iniesta",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-AP",
+      "player": "Andrea Pirlo",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-CR",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-DD",
+      "player": "Didier Drogba",
+      "club": "Chelsea FC",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-FR",
+      "player": "Franck Ribéry",
+      "club": "FC Bayern München",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-LM",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-PS",
+      "player": "Paul Scholes",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-RC",
+      "player": "Roberto Carlos",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-SE",
+      "player": "Samuel Eto'o",
+      "club": "FC Internazionale Milano",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "BBA-ZZ",
+      "player": "Zinédine Zidane",
+      "club": "Juventus",
+      "type": "Retired"
+    }
+  ],
+  "HISTORIC CAPTAINS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "HCA-BA",
+      "player": "Franco Baresi",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HCA-GB",
+      "player": "Gianluigi Buffon",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HCA-PM",
+      "player": "Paolo Maldini",
+      "club": "AC Milan",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HCA-RK",
+      "player": "Roy Keane",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "HCA-SG",
+      "player": "Steven Gerrard",
+      "club": "Liverpool FC",
+      "type": "Retired"
+    }
+  ],
+  "ULTIMATE STAGE AUTOGRAPHS": [
+    {
+      "cardNumber": "USA-AT",
+      "player": "Aurélien Tchouaméni",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-CR",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-DY",
+      "player": "Dwight Yorke",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "USA-IM",
+      "player": "Ian Maatsen",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-K",
+      "player": "Koke",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-KC",
+      "player": "Kingsley Coman",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-KW",
+      "player": "Kyle Walker",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-LB",
+      "player": "Leonardo Bonucci",
+      "club": "Juventus",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "USA-LM",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-MM",
+      "player": "Marco Materazzi",
+      "club": "FC Internazionale Milano",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "USA-PG",
+      "player": "Paul Gascoigne",
+      "club": "Rangers F.C.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "USA-RG",
+      "player": "Ryan Giggs",
+      "club": "Manchester United",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "USA-TW",
+      "player": "Timothy Weah",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USA-VB",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    }
+  ],
+  "ULTIMATE STAGE CHROME CARDS AUTOGRAPH VARIATION": [
+    {
+      "cardNumber": "USCA-AG",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-CR",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-DD",
+      "player": "Denzel Dumfries",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-DN",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-E",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USCA-EC",
+      "player": "Eduardo Camavinga",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-EH",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-FD",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-G",
+      "player": "Gavi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-GD",
+      "player": "Gianluigi Donnarumma",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-HK",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-JB",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-KD",
+      "player": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-KI",
+      "player": "Ken Izekor",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USCA-LA",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-LE",
+      "player": "Rafael Leão",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-LM",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-M",
+      "player": "Marquinhos",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-ND",
+      "player": "Noah Darvich",
+      "club": "FC Barcelona",
+      "type": "Rookie"
+    },
+    {
+      "cardNumber": "USCA-P",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-PF",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-RK",
+      "player": "Randal Kolo Muani",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-RL",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-RP",
+      "player": "Ricardo Pepi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-V",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-VB",
+      "player": "Victor Boniface",
+      "club": "Bayer 04 Leverkusen",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "USCA-VV",
+      "player": "Virgil MARKS OF EXCELLENCE ON-CARD AUTOGRAPHS",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "EX-AI1",
+      "player": "Andrés Iniesta",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "EX-DS1",
+      "player": "Davor",
+      "club": "Real Madrid C.F.",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "EX-RN5",
+      "player": "Ronaldinho",
+      "club": "FC Barcelona",
+      "type": "Retired"
+    },
+    {
+      "cardNumber": "EX-ZI2",
+      "player": "Zlatan Ibrahimović",
+      "club": "AC Milan",
+      "type": "Retired"
+    }
+  ],
+  "TOPPS SUPERSTAR RELICS": [
+    {
+      "cardNumber": "SR-A",
+      "player": "Antony",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-AB",
+      "player": "Alejandro Balde",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-BB",
+      "player": "Bradley Barcola",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-BS",
+      "player": "Bernardo Silva",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-CG",
+      "player": "Cody Gakpo",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-CR",
+      "player": "Cristian Romero",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-DD",
+      "player": "Diogo Dalot",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-DF",
+      "player": "Davide Frattesi",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-DJ",
+      "player": "Diogo Jota",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-DN",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-DS",
+      "player": "Dominik Szoboszlai",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-EC",
+      "player": "Eduardo Camavinga",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-FD",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-FL",
+      "player": "Fermín López Gon",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-GI",
+      "player": null,
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-GV",
+      "player": "Joško Gvardiol",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-HA",
+      "player": "Achraf Hakimi",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-HC",
+      "player": "Hakan",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-HJ",
+      "player": "Morten Hjulmand",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-HY",
+      "player": "Hyunjun Yang",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-JB",
+      "player": "Jamie Bynoe-Gittens",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-JG",
+      "player": "Jack Grealish",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-JK",
+      "player": "Joshua Kimmich",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-JR",
+      "player": "Julian Ryerson",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-KA",
+      "player": "Pierre Kalulu",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-KC",
+      "player": "Kingsley Coman",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-KF",
+      "player": "Kyogo Furuhashi",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-KO",
+      "player": "Jules Koundé",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-KW",
+      "player": "Kyle Walker",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-KY",
+      "player": "Kenan Yildiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-LA",
+      "player": "Konrad Laimer",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-LC",
+      "player": "Levi Colwill",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-LM",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-LS",
+      "player": "Luke Shaw",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-LY",
+      "player": "Lamine Yamal",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-MA",
+      "player": "Daizen Maeda",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-MI",
+      "player": "Mike Maignan",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-MK",
+      "player": "Mateo Kovačić",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-MM",
+      "player": "Mason Mount",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-NJ",
+      "player": "Nicolas Jackson",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-NO",
+      "player": "Noah Okafor",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-NS",
+      "player": "Nico Schlotterbeck",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-OB",
+      "player": "Oscar Bobb",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-OH",
+      "player": "Odin Thiago Holm",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-PG",
+      "player": "Pedro Gonçalves",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-PK",
+      "player": "Presnel Kimpembe",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-R",
+      "player": "Raphinha",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-RA",
+      "player": "Jacob Ramsey",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-RH",
+      "player": "Rasmus Højlund",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-RK",
+      "player": "Randal Kolo Muani",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-RP",
+      "player": "Ricardo Pepi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-SA",
+      "player": "Leo Sauer",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-SG",
+      "player": "Santiago Giménez",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-T",
+      "player": "Trincão",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-TA",
+      "player": "Trent Alexander-Arnold",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-TB",
+      "player": "Tajon Buchanan",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-TH",
+      "player": "Marcus Thuram",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-V",
+      "player": "Vitinha",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-VR",
+      "player": "Vitor Roque",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-VV",
+      "player": "Virgil",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-WZ",
+      "player": "Warren Zaïre-Emery",
+      "club": "Paris Saint-Germain",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SR-YM",
+      "player": "Yunus Musah",
+      "club": "AC Milan",
+      "type": "Veteran"
+    }
+  ],
+  "PREMIUM CLASS RELICS": [
+    {
+      "cardNumber": "PR-BF",
+      "player": "Bruno Fernandes",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-CR",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-DN",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-EH",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-GA",
+      "player": "Alejandro Garnacho",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-HS",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-JB",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-JM",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-KD",
+      "player": "Kevin De Bruyne Le",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-LE",
+      "player": "Rafael",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-LM",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-P",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-PF",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-RL",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PR-V",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    }
+  ],
+  "TOPPS SUPERSTAR AUTOGRAPHED RELICS": [
+    {
+      "cardNumber": "SAR-A",
+      "player": "Antony",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-AB",
+      "player": "Alejandro Balde",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-AG",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-BS",
+      "player": "Bernardo Silva",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-CG",
+      "player": "Cody Gakpo",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-CR",
+      "player": "Cristian Romero",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-DD",
+      "player": "Diogo Dalot",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-DF",
+      "player": "Davide Frattesi",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-DJ",
+      "player": "Diogo Jota",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-DM",
+      "player": "Daizen Maeda",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-DN",
+      "player": "Darwin Núñez",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-DS",
+      "player": "Dominik Szoboszlai",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-EC",
+      "player": "Eduardo Camavinga",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-EF",
+      "player": "Enzo Fernández",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-FD",
+      "player": "Federico Dimarco",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-GV",
+      "player": "Joško Gvardiol SAR-HÇ Hakan",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-HE",
+      "player": "Harvey Elliott",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-HT",
+      "player": "Theo Hernández",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-JA",
+      "player": "Jacob Ramsey",
+      "club": "Aston Villa",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-JR",
+      "player": "Julian Ryerson",
+      "club": "Borussia Dortmund",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-KA",
+      "player": "Pierre Kalulu",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-KC",
+      "player": "Kingsley Coman",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-KF",
+      "player": "Kyogo Furuhashi",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-KO",
+      "player": "Jules Koundé",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-KW",
+      "player": "Kyle Walker",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-KY",
+      "player": "Kenan Yildiz",
+      "club": "Juventus",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-LA",
+      "player": "Konrad Laimer",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-LM",
+      "player": "Lautaro Martínez",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-LS",
+      "player": "Luke Shaw",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-MI",
+      "player": "Mike Maignan",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-MK",
+      "player": "Mateo Kovačić",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-MM",
+      "player": "Mason Mount",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-MO",
+      "player": "Matt O'Riley",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-MT",
+      "player": "Marcus Thuram",
+      "club": "FC Internazionale Milano",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-MU",
+      "player": "Mykhailo Mudryk",
+      "club": "Chelsea FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-NO",
+      "player": "Noah Okafor",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-OB",
+      "player": "Oscar Bobb",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-OH",
+      "player": "Odin Thiago Holm",
+      "club": "Celtic FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-PG",
+      "player": "Pedro Gonçalves",
+      "club": "Sporting Clube de Portugal",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-RA",
+      "player": "Raphinha",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-RH",
+      "player": "Rasmus Højlund",
+      "club": "Manchester United",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-RP",
+      "player": "Ricardo Pepi",
+      "club": "PSV Eindhoven",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-SA",
+      "player": "Leo Sauer",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-SG",
+      "player": "Santiago Giménez",
+      "club": "Feyenoord",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-TB",
+      "player": "Tajon Buchanan SAR-Vv Virgil",
+      "club": "Liverpool FC",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "SAR-YM",
+      "player": "Yunus Musah",
+      "club": "AC Milan",
+      "type": "Veteran"
+    }
+  ],
+  "PREMIUM CLASS AUTOGRAPHED RELICS": [
+    {
+      "cardNumber": "PAR-AG",
+      "player": "Antoine Griezmann",
+      "club": "Atlético de Madrid",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-CR",
+      "player": "Cristiano Ronaldo",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-EH",
+      "player": "Erling Haaland",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-G",
+      "player": "Gavi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-HK",
+      "player": "Harry Kane",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-HS",
+      "player": "Heung-min Son",
+      "club": "Tottenham Hotspur",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-JB",
+      "player": "Jude Bellingham",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-JM",
+      "player": "Jamal Musiala",
+      "club": "FC Bayern München",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-KD",
+      "player": "Kevin De Bruyne Le",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-LE",
+      "player": "Rafael",
+      "club": "AC Milan",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-LM",
+      "player": "Lionel Messi",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-P",
+      "player": "Pedri",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-PF",
+      "player": "Phil Foden",
+      "club": "Manchester City",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-RL",
+      "player": "Robert Lewandowski",
+      "club": "FC Barcelona",
+      "type": "Veteran"
+    },
+    {
+      "cardNumber": "PAR-V",
+      "player": "Vini Jr.",
+      "club": "Real Madrid C.F.",
+      "type": "Veteran"
+    }
+  ],
+  "ROOKIE ARRIVAL AUTOGRAPH PATCH INSCRIPTION": [
+    {
+      "cardNumber": "API-E",
+      "player": "Endrick",
+      "club": "Real Madrid C.F.",
+      "type": "Rookie"
+    }
+  ]
+}
