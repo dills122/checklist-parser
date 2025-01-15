@@ -1,15 +1,20 @@
+/* eslint-disable import/no-named-as-default */
+import { access } from 'fs/promises';
 import PDFParser, { Output } from 'pdf2json';
 import FuzzyClubMatcher from './fuzzy-match-club';
-import path from 'path';
 
-interface CardObject {
+export interface CardObject {
   cardNumber: string | null;
   player: string | null;
   club: string | null;
   type: cardType | null;
 }
 
-type cardType = 'Veteran' | 'Rookie' | 'Retired';
+export interface ChecklistMap {
+  [key: string]: CardObject[];
+}
+
+export type cardType = 'Veteran' | 'Rookie' | 'Retired';
 
 export default class ChecklistParser {
   pdfParser: PDFParser;
@@ -19,12 +24,21 @@ export default class ChecklistParser {
     this.fuzzyClubMatcher = new FuzzyClubMatcher();
   }
 
-  //TODO update it from static file
-  loadFile() {
-    this.pdfParser.loadPDF(path.join(process.cwd(), 'test-files', 'Test-Checklist.pdf'));
+  async loadFile(bufferOrPath: string | Buffer) {
+    try {
+      if (typeof bufferOrPath === 'string') {
+        if (!(await this.fileExists(bufferOrPath))) throw Error('Given file not found or accessible');
+        return await this.pdfParser.loadPDF(bufferOrPath);
+      } else {
+        return await this.pdfParser.parseBuffer(bufferOrPath);
+      }
+    } catch (err) {
+      console.error(err);
+      throw Error('Issue reading input file, check your input type data');
+    }
   }
 
-  async parse() {
+  async parse(): Promise<ChecklistMap> {
     return new Promise((res, rej) => {
       this.pdfParser.on('pdfParser_dataReady', async (pdfData) => {
         const checklistJson = await this.parseData(pdfData);
@@ -37,10 +51,17 @@ export default class ChecklistParser {
     });
   }
 
+  private async fileExists(filePath: string) {
+    try {
+      await access(filePath);
+      return true;
+    } catch (err) {
+      return false;
+    }
+  }
+
   private async parseData(data: Output) {
-    const textMap: {
-      [key: string]: CardObject[];
-    } = {};
+    const textMap: ChecklistMap = {};
 
     // Extract and decode text in the correct order
     let currentCategory: string | null = null;
@@ -61,6 +82,7 @@ export default class ChecklistParser {
         type: null // Veteran, Rookie, Retired
       };
     };
+    //TODO need to split this out better so I can unit test it
     data.Pages.forEach((page) => {
       // Sort text blocks by vertical (y) and then horizontal (x) positions
       const sortedTexts = page.Texts.sort((a, b) => {
@@ -101,6 +123,7 @@ export default class ChecklistParser {
             cardObj.type = text as cardType;
             continue;
           }
+
           const clubName = this.fuzzyClubMatcher.getClubNameFromFuzzySearch(text);
           if (clubName != null) {
             cardObj.club = clubName;
@@ -140,7 +163,7 @@ export default class ChecklistParser {
       return false;
     }
     const { cardNumber, player, club, type } = card;
-    return !cardNumber && [player, club, type].every((item) => item != null);
+    return cardNumber == null && [player, club, type].every((item) => item != null);
   }
 
   private isAllCaps(text: string): boolean {
@@ -149,7 +172,12 @@ export default class ChecklistParser {
 
   private verifyIfHeaderTextIsPresent(text: string): boolean {
     const isStringInHeaderFormat = /^[A-Za-z\s]+$/.test(text);
-    return text.length > 1 && isStringInHeaderFormat && isAllCaps(text) && !verifyIfCardNumberIsPresent(text);
+    return (
+      text.length > 1 &&
+      isStringInHeaderFormat &&
+      this.isAllCaps(text) &&
+      !this.verifyIfCardNumberIsPresent(text)
+    );
   }
 
   private verifyIfCardNumberIsPresent(text: string): boolean {

@@ -44,7 +44,7 @@ export default class ClubMatcher {
   getClubNameFromFuzzySearch(input: string): string | null {
     const result = this.fuse.search(input);
     const bestMatch = result[0];
-    if (bestMatch?.score && bestMatch?.score <= this.fuseOptions.threshold) {
+    if (bestMatch?.score != null && bestMatch?.score <= this.fuseOptions.threshold) {
       return bestMatch.item;
     }
     return null;

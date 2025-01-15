@@ -17,6 +17,19 @@ describe('Fuzzy Match Club', () => {
     expect(clubName).toEqual(MockClubName);
   });
 
+  test('Ensure getClubNameFromFuzzySearch can handle a single match scenario with score of 0', () => {
+    const MockClubName = 'TEST';
+    fuseSearchSpy = jest.spyOn(Fuse.prototype, 'search');
+    fuseSearchSpy.mockReturnValue([
+      {
+        item: MockClubName,
+        score: 0
+      } as FuseResult<string>
+    ]);
+    const clubName = new ClubMatcher().getClubNameFromFuzzySearch(MockClubName);
+    expect(clubName).toEqual(MockClubName);
+  });
+
   test('Ensure getClubNameFromFuzzySearch can handle a multi match scenario', () => {
     const MockClubName = 'TEST';
     fuseSearchSpy = jest.spyOn(Fuse.prototype, 'search');
