@@ -17,3 +17,6 @@ types
 
 # Prettier reformats code blocks inside Markdown, which affects rendered output
 *.md
+
+*.pdf
+.prettierignore

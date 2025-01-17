@@ -14,7 +14,13 @@ export interface ChecklistMap {
   [key: string]: CardObject[];
 }
 
-export type cardType = 'Veteran' | 'Rookie' | 'Retired';
+export const cardTypes = ['veteran', 'rookie', 'retired', 'debutant'] as const;
+
+export type cardType = (typeof cardTypes)[number];
+
+export const isCardType = (value: string): value is cardType => {
+  return (cardTypes as readonly string[]).includes(value);
+};
 
 export default class ChecklistParser {
   pdfParser: PDFParser;
@@ -38,10 +44,10 @@ export default class ChecklistParser {
     }
   }
 
-  async parse(): Promise<ChecklistMap> {
+  async parse(isInternationalTeamProduct?: boolean): Promise<ChecklistMap> {
     return new Promise((res, rej) => {
       this.pdfParser.on('pdfParser_dataReady', async (pdfData) => {
-        const checklistJson = await this.parseData(pdfData);
+        const checklistJson = await this.parseData(pdfData, isInternationalTeamProduct);
         return res(checklistJson);
       });
       this.pdfParser.on('pdfParser_dataError', (errData) => {
@@ -60,7 +66,7 @@ export default class ChecklistParser {
     }
   }
 
-  private async parseData(data: Output) {
+  private async parseData(data: Output, isInternationalTeamProduct?: boolean) {
     const textMap: ChecklistMap = {};
 
     // Extract and decode text in the correct order
@@ -96,6 +102,11 @@ export default class ChecklistParser {
           const t = textObj.R[i];
           const text = decodeURIComponent(t.T);
 
+          if (this.verifyIfPlayerTypeIsPresent(text)) {
+            cardObj.type = text as cardType;
+            continue;
+          }
+
           if (this.verifyIfHeaderTextIsPresent(text)) {
             if (
               this.checkIfCardHasAtleastCardNumAndSomeOthers(cardObj) ||
@@ -119,15 +130,13 @@ export default class ChecklistParser {
             continue;
           }
 
-          if (this.verifyIfPlayerTypeIsPresent(text)) {
-            cardObj.type = text as cardType;
-            continue;
-          }
-
-          const clubName = this.fuzzyClubMatcher.getClubNameFromFuzzySearch(text);
-          if (clubName != null) {
-            cardObj.club = clubName;
-            continue;
+          // International/National Team checklists seem to not have a club/nation name so skip this
+          if (!isInternationalTeamProduct) {
+            const clubName = this.fuzzyClubMatcher.getClubNameFromFuzzySearch(text);
+            if (clubName != null) {
+              cardObj.club = clubName;
+              continue;
+            }
           }
 
           if (!this.checkIfFirstLetterOfStringIsCaptial(text)) continue;
@@ -185,7 +194,7 @@ export default class ChecklistParser {
   }
 
   private verifyIfPlayerTypeIsPresent(text: string): boolean {
-    return ['veteran', 'rookie', 'retired'].includes(text.toLowerCase());
+    return isCardType(text.toLowerCase());
   }
 
   private checkIfFirstLetterOfStringIsCaptial(text: string): boolean {
