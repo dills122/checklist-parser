@@ -23,8 +23,17 @@ export const isCardType = (value: string): value is cardType => {
 };
 
 export default class ChecklistParser {
-  pdfParser: PDFParser;
-  fuzzyClubMatcher: FuzzyClubMatcher;
+  private pdfParser: PDFParser;
+  private fuzzyClubMatcher: FuzzyClubMatcher;
+  private currentCategory: string | null | undefined;
+  private card: CardObject = {
+    cardNumber: null,
+    player: null,
+    club: null,
+    type: null // Veteran, Rookie, Retired
+  };
+  private textMap: ChecklistMap = {};
+
   constructor() {
     this.pdfParser = new PDFParser();
     this.fuzzyClubMatcher = new FuzzyClubMatcher();
@@ -67,27 +76,11 @@ export default class ChecklistParser {
   }
 
   private async parseData(data: Output, isInternationalTeamProduct?: boolean) {
-    const textMap: ChecklistMap = {};
+    this.textMap = {};
 
     // Extract and decode text in the correct order
-    let currentCategory: string | null = null;
-    let cardObj: CardObject = {
-      cardNumber: null,
-      player: null,
-      club: null,
-      type: null // Veteran, Rookie, Retired
-    };
-    //TODO move this and do it properly
-    const pushCardObjToMap = () => {
-      if (!currentCategory) return;
-      textMap[currentCategory].push(cardObj);
-      cardObj = {
-        cardNumber: null,
-        player: null,
-        club: null,
-        type: null // Veteran, Rookie, Retired
-      };
-    };
+    this.currentCategory = null;
+    this.resetCardObj();
     //TODO need to split this out better so I can unit test it
     data.Pages.forEach((page) => {
       // Sort text blocks by vertical (y) and then horizontal (x) positions
@@ -103,30 +96,21 @@ export default class ChecklistParser {
           const text = decodeURIComponent(t.T);
 
           if (this.verifyIfPlayerTypeIsPresent(text)) {
-            cardObj.type = text as cardType;
+            this.checkIfReadyToPushCard();
+            this.card.type = text as cardType;
             continue;
           }
 
           if (this.verifyIfHeaderTextIsPresent(text)) {
-            if (
-              this.checkIfCardHasAtleastCardNumAndSomeOthers(cardObj) ||
-              this.checkIfCardHasNoCardNumberButAllOthersAreSet(cardObj)
-            ) {
-              pushCardObjToMap();
-            }
-            currentCategory = text;
-            textMap[text] = [];
+            this.checkIfReadyToPushCard();
+            this.currentCategory = text;
+            this.textMap[text] = [];
             continue;
           }
 
           if (this.verifyIfCardNumberIsPresent(text)) {
-            if (
-              this.checkIfCardHasAtleastCardNumAndSomeOthers(cardObj) ||
-              this.checkIfCardHasNoCardNumberButAllOthersAreSet(cardObj)
-            ) {
-              pushCardObjToMap();
-            }
-            cardObj.cardNumber = text;
+            this.checkIfReadyToPushCard();
+            this.card.cardNumber = text;
             continue;
           }
 
@@ -134,29 +118,48 @@ export default class ChecklistParser {
           if (!isInternationalTeamProduct) {
             const clubName = this.fuzzyClubMatcher.getClubNameFromFuzzySearch(text);
             if (clubName != null) {
-              cardObj.club = clubName;
+              this.card.club = clubName;
               continue;
             }
           }
 
           if (!this.checkIfFirstLetterOfStringIsCaptial(text)) continue;
 
-          if (cardObj.player && cardObj.player.length > 0) {
-            cardObj.player += ` ${text}`;
+          if (this.card.player && this.card.player.length > 0) {
+            this.card.player += ` ${text}`;
           } else {
-            cardObj.player = text;
+            this.card.player = text;
           }
         }
       });
     });
-    if (
-      this.checkIfCardHasAtleastCardNumAndSomeOthers(cardObj) ||
-      this.checkIfCardHasNoCardNumberButAllOthersAreSet(cardObj)
-    ) {
-      pushCardObjToMap();
-    }
+    this.checkIfReadyToPushCard();
 
-    return textMap;
+    return this.textMap;
+  }
+
+  private checkIfReadyToPushCard() {
+    if (
+      this.checkIfCardHasAtleastCardNumAndSomeOthers(this.card) ||
+      this.checkIfCardHasNoCardNumberButAllOthersAreSet(this.card)
+    ) {
+      this.pushCardObjToMap();
+    }
+  }
+
+  private pushCardObjToMap() {
+    if (!this.currentCategory) return;
+    this.textMap[this.currentCategory].push(this.card);
+    this.resetCardObj();
+  }
+
+  private resetCardObj() {
+    this.card = {
+      cardNumber: null,
+      player: null,
+      club: null,
+      type: null
+    };
   }
 
   private checkIfCardHasAtleastCardNumAndSomeOthers(card: CardObject): boolean {

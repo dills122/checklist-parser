@@ -5,17 +5,17 @@ import assert from 'assert';
 (async () => {
   // try {
   console.log('Running');
-  // const testChecklistPath = path.join(process.cwd(), 'test-files', 'Test-Checklist.pdf');
-  const testChecklistPath = path.join(process.cwd(), 'test-files', 'EUR2402-24UCEO_Checklist_V2.pdf');
+  const testChecklistPath = path.join(process.cwd(), 'test-files', 'Test-Checklist.pdf');
+  // const testChecklistPath = path.join(process.cwd(), 'test-files', 'EUR2402-24UCEO_Checklist_V2.pdf');
   const checklistParser = new ChecklistParser();
   await checklistParser.loadFile(testChecklistPath);
-  const checklistJson = await checklistParser.parse(true);
+  const checklistJson = await checklistParser.parse(false);
   console.log('Finished Parsing');
   console.log(checklistJson);
   assert(Object.keys(checklistJson).length, 'Checklist has length greater than 0');
   for (const [key, value] of Object.entries(checklistJson)) {
-    assert(key.length, 'Key exists');
-    assert(value.length, 'Each checklist Categorey is non-empty');
+    assert(key.length, `Key exists - ${key}`);
+    assert(value.length, `Each checklist Categorey is non-empty, ${key}`);
   }
   // } catch (err) {
   //   console.error(JSON.stringify(err, null, 2));
