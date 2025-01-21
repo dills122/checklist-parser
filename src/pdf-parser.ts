@@ -1,6 +1,6 @@
 /* eslint-disable import/no-named-as-default */
 import { access } from 'fs/promises';
-import PDFParser, { Output } from 'pdf2json';
+import PDFParser, { Output, Page } from 'pdf2json';
 import FuzzyClubMatcher from './fuzzy-match-club';
 
 export interface CardObject {
@@ -30,13 +30,18 @@ export default class ChecklistParser {
     cardNumber: null,
     player: null,
     club: null,
-    type: null // Veteran, Rookie, Retired
+    type: null
   };
   private textMap: ChecklistMap = {};
 
   constructor() {
     this.pdfParser = new PDFParser();
     this.fuzzyClubMatcher = new FuzzyClubMatcher();
+  }
+
+  async parseFile(bufferOrPath: string | Buffer, isInternationalTeamProduct?: boolean) {
+    await this.loadFile(bufferOrPath);
+    return await this.parse(isInternationalTeamProduct);
   }
 
   async loadFile(bufferOrPath: string | Buffer) {
@@ -75,67 +80,79 @@ export default class ChecklistParser {
     }
   }
 
-  private async parseData(data: Output, isInternationalTeamProduct?: boolean) {
+  private async parseData(data: Output, isInternationalTeamProduct?: boolean): Promise<ChecklistMap> {
     this.textMap = {};
-
-    // Extract and decode text in the correct order
     this.currentCategory = null;
     this.resetCardObj();
-    //TODO need to split this out better so I can unit test it
+
     data.Pages.forEach((page) => {
-      // Sort text blocks by vertical (y) and then horizontal (x) positions
-      const sortedTexts = page.Texts.sort((a, b) => {
-        if (a.y === b.y) {
-          return a.x - b.x; // Same line, sort by x-axis (left to right)
-        }
-        return a.y - b.y; // Sort by y-axis (top to bottom)
-      });
+      const sortedTexts = this.sortTextItems(page);
       sortedTexts.forEach((textObj) => {
         for (let i = 0; i < textObj.R.length; i++) {
           const t = textObj.R[i];
-          const text = decodeURIComponent(t.T);
-
-          if (this.verifyIfPlayerTypeIsPresent(text)) {
-            this.checkIfReadyToPushCard();
-            this.card.type = text as cardType;
-            continue;
-          }
-
-          if (this.verifyIfHeaderTextIsPresent(text)) {
-            this.checkIfReadyToPushCard();
-            this.currentCategory = text;
-            this.textMap[text] = [];
-            continue;
-          }
-
-          if (this.verifyIfCardNumberIsPresent(text)) {
-            this.checkIfReadyToPushCard();
-            this.card.cardNumber = text;
-            continue;
-          }
-
-          // International/National Team checklists seem to not have a club/nation name so skip this
-          if (!isInternationalTeamProduct) {
-            const clubName = this.fuzzyClubMatcher.getClubNameFromFuzzySearch(text);
-            if (clubName != null) {
-              this.card.club = clubName;
-              continue;
-            }
-          }
-
-          if (!this.checkIfFirstLetterOfStringIsCaptial(text)) continue;
-
-          if (this.card.player && this.card.player.length > 0) {
-            this.card.player += ` ${text}`;
-          } else {
-            this.card.player = text;
-          }
+          this.matchStringToCardProperty(t.T, isInternationalTeamProduct);
         }
       });
     });
     this.checkIfReadyToPushCard();
 
     return this.textMap;
+  }
+
+  /**
+   * Sort text blocks by vertical (y) and then horizontal (x) positions
+   * @param page {Page} pdf2json Page
+   * @returns
+   */
+  private sortTextItems(page: Page) {
+    return page.Texts.sort((a, b) => {
+      if (a.y === b.y) {
+        return a.x - b.x; // Same line, sort by x-axis (left to right)
+      }
+      return a.y - b.y; // Sort by y-axis (top to bottom)
+    });
+  }
+
+  private matchStringToCardProperty(rawText: string, isInternationalTeamProduct?: boolean) {
+    const text = decodeURIComponent(rawText);
+    do {
+      if (this.verifyIfPlayerTypeIsPresent(text)) {
+        this.checkIfReadyToPushCard();
+        this.card.type = text as cardType;
+        continue;
+      }
+
+      if (this.verifyIfHeaderTextIsPresent(text)) {
+        this.checkIfReadyToPushCard();
+        this.currentCategory = text;
+        this.textMap[text] = [];
+        continue;
+      }
+
+      if (this.verifyIfCardNumberIsPresent(text)) {
+        this.checkIfReadyToPushCard();
+        this.card.cardNumber = text;
+        continue;
+      }
+
+      // International/National Team checklists seem to not have a club/nation name so skip this
+      if (!isInternationalTeamProduct) {
+        const clubName = this.fuzzyClubMatcher.getClubNameFromFuzzySearch(text);
+        if (clubName != null) {
+          this.card.club = clubName;
+          continue;
+        }
+      }
+
+      if (!this.checkIfFirstLetterOfStringIsCaptial(text)) continue;
+
+      if (this.card.player && this.card.player.length > 0) {
+        this.card.player += ` ${text}`;
+      } else {
+        this.card.player = text;
+      }
+      // eslint-disable-next-line no-constant-condition
+    } while (false);
   }
 
   private checkIfReadyToPushCard() {

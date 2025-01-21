@@ -73,14 +73,14 @@ describe('PDF Parser', () => {
         cardNumber: null,
         club: 'CLUB',
         player: 'PLAYER',
-        type: 'Rookie'
+        type: 'rookie'
       };
       expect(pdfParserObj['checkIfCardHasNoCardNumberButAllOthersAreSet'](passCheck)).toBeTruthy();
       const failCheck: CardObject = {
         cardNumber: 'NUM',
         club: 'CLUB',
         player: 'PLAYER',
-        type: 'Rookie'
+        type: 'rookie'
       };
       expect(pdfParserObj['checkIfCardHasNoCardNumberButAllOthersAreSet'](failCheck)).toBeFalsy();
     });
@@ -89,21 +89,21 @@ describe('PDF Parser', () => {
         cardNumber: 'AB',
         club: 'CLUB',
         player: 'PLAYER',
-        type: 'Rookie'
+        type: 'rookie'
       };
       expect(pdfParserObj['checkIfCardHasAtleastCardNumAndSomeOthers'](allSetObj)).toBeTruthy();
       const mostSetObj: CardObject = {
         cardNumber: 'AB',
         club: 'CLUB',
         player: null,
-        type: 'Rookie'
+        type: 'rookie'
       };
       expect(pdfParserObj['checkIfCardHasAtleastCardNumAndSomeOthers'](mostSetObj)).toBeTruthy();
       const noCardNum: CardObject = {
         cardNumber: null,
         club: 'CLUB',
         player: 'PLAYER',
-        type: 'Rookie'
+        type: 'rookie'
       };
       expect(pdfParserObj['checkIfCardHasAtleastCardNumAndSomeOthers'](noCardNum)).toBeFalsy();
       const nonSet: CardObject = {

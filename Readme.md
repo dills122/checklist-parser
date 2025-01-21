@@ -4,7 +4,7 @@ This project is intended to be a Parser for Topps/Panini Checklists of their spo
 
 Currently in Early Phase, but have a working example, `example.ts`, which can be run by `npx tsx example.ts`.
 
-So far I have only tested with a single checklist, [2024-25 Topps UEFA Club Competitions](https://www.topps.com/pages/topps-uefa-club-competitions).
+So far I have only tested with a single checklist, [2024-25 Topps UEFA Club Competitions](https://www.topps.com/pages/topps-uefa-club-competitions) & [2023-24 Topps Euro Chrome](https://www.topps.com/pages/topps-chrome-uefa-euro).
 
 ## Getting Started
 

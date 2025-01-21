@@ -1,6 +1,7 @@
 import path from 'path';
 import ChecklistParser from './src/pdf-parser';
 import assert from 'assert';
+import { writeFile } from 'fs/promises';
 
 (async () => {
   // try {
@@ -17,7 +18,11 @@ import assert from 'assert';
     assert(key.length, `Key exists - ${key}`);
     assert(value.length, `Each checklist Categorey is non-empty, ${key}`);
   }
-  // } catch (err) {
-  //   console.error(JSON.stringify(err, null, 2));
-  // }
+
+  const stringyJson = JSON.stringify(checklistJson, null, 4);
+  try {
+    await writeFile('./test-files/checklist.json', stringyJson, 'utf8');
+  } catch (err) {
+    console.error(JSON.stringify(err, null, 2));
+  }
 })();
